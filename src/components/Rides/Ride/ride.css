@@ -1,0 +1,46 @@
+.Ride {
+  margin: 0.7rem 4rem;
+  background-color: #171717;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.ride_left {
+  flex-basis: 20%;
+}
+.ride_middle {
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ride_middle > h4 {
+  padding-left: 2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  color: #cfcfcf;
+  font-size: 16px;
+  line-height: 25px;
+}
+.ride_middle > h4 span{
+color: #fff;
+}
+.ride_right {
+  position: absolute;
+  right: 5rem;
+  display: flex;
+}
+.ride_right>h4{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+padding: 0.3rem 1rem;
+border-radius: 0.7rem;
+margin: 0 1rem
+}

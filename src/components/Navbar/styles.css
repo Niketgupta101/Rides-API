@@ -1,0 +1,31 @@
+.Navbar {
+  margin: 0;
+  padding: 0.6rem 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101010;
+  color: #fff;
+}
+.user {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7em;
+  line-height: 43px;
+}
+.avatar{
+    margin: auto 1rem;
+}
+.user>h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
