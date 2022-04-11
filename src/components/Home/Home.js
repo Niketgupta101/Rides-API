@@ -43,7 +43,7 @@ const Home = () => {
       let newRides = []
       for(let i in backupRide)
       {
-        if(backupRide[i].date===Date())
+        if(backupRide[i].date<=Date())
         {
           newRides.push(backupRide[i]);
         }
