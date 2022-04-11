@@ -76,9 +76,9 @@ const Menubar = ({ fetchNewest, fetchPast, fetchUpcoming, filterByCity, filterBy
           </select>
           <select name="state" id="state" onClick={handleCityChange}>
             <option value="city">City</option>
-            <option value="Gujarat">Gujarat</option>
-            <option value="Jharkhand">Jharkhand</option>
-            <option value="Rajasthan">Rajasthan</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Srirampore">Srirampore</option>
+            <option value="Silvassa">Silvassa</option>
           </select>
         </div>
       </div>

@@ -1,22 +1,9 @@
-import React, { useEffect, useState } from "react";
-
-import axios from "axios";
+import React from "react";
 
 import "./rides.css";
 import Ride from "./Ride/Ride";
 
 const Rides = ({ rides }) => {
-  // const [rides, setRides] = useState();
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     var { data } = await axios.get("https://assessment.api.vweb.app/rides");
-  //     console.log(data);
-  //     setRides(data);
-  //   };
-  //   fetchData();
-  // }, []);
-
   return (
     <>
       <div className="Rides">

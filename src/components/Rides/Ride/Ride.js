@@ -16,7 +16,7 @@ const Ride = ({ ride }) => {
                 <h4>Origin Station: <span>{ride.origin_station_code}</span></h4>
                 <h4>station_path: <span>{JSON.stringify(ride.station_path)}</span></h4>
                 <h4>Date: <span>{Date(ride.date)}</span></h4>
-                <h4>Distance: <span>{'0'}</span></h4>
+                <h4>Distance: <span>{ride.distance}</span></h4>
             </div>
             <div className="ride_right">
                 <h4>{ride.city}</h4>
