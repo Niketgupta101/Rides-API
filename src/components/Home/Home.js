@@ -9,23 +9,23 @@ const Home = () => {
   const [rides, setRides] = useState();
 
   const filterByState = async (category) => {
-      var { data } = await axios.get(`hhttps://git.heroku.com/edvora-assignment.git/rides/state/${category}`);
+      var { data } = await axios.get(`https://git.heroku.com/edvora-assignment.git/rides/state/${category}`);
       console.log(data);
       setRides(data);
   }
   const filterByCity = async (category) => {
-    var { data } = await axios.get(`hhttps://git.heroku.com/edvora-assignment.git/rides/city/${category}`);
+    var { data } = await axios.get(`https://git.heroku.com/edvora-assignment.git/rides/city/${category}`);
     console.log(data);
     setRides(data);
   }
   const fetchNewest = async () => {
-    var { data } = await axios.get(`hhttps://git.heroku.com/edvora-assignment.git/rides/newest`);
+    var { data } = await axios.get(`https://git.heroku.com/edvora-assignment.git/rides/newest`);
     console.log(data);
     setRides(data);
   }
 
   const fetchUpcoming = async () => {
-    var { data } = await axios.get(`hhttps://git.heroku.com/edvora-assignment.git/rides/upcoming`);
+    var { data } = await axios.get(`https://git.heroku.com/edvora-assignment.git/rides/upcoming`);
     console.log(data);
     setRides(data);
   }
